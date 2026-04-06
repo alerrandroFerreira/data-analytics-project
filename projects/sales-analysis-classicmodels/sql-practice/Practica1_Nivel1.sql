@@ -1,24 +1,39 @@
 -- Ejercicio 1:
 -- Muestra todos los clientes junto con el nombre de su representante de ventas.
-
+select c.customername, e.firstName
+from customers c
+inner join employees e
+on c.salesRepEmployeeNumber = e.employeeNumber;
 -- Ejercicio 2:
 -- Muestra el nombre del cliente y el país donde está ubicado.
-
+select c.customername, c.country from customers c;
 -- Ejercicio 3:
 -- Lista todos los pedidos junto con el nombre del cliente que lo realizó.
-
+select o.orderNumber, customerName 
+from orders o
+left join customers c
+on o.customerNumber = c.customerNumber;
 -- Ejercicio 4:
 -- Muestra los pedidos que aún no han sido enviados (shippedDate NULL).
-
+select * from orders 
+where shippedDate IS NULL;
 -- Ejercicio 5:
 -- Muestra los productos junto con su línea de producto.
-
+select productCode, productName, productLine 
+from products
+order by productLine;
 -- Ejercicio 6:
 -- Lista los empleados junto con la ciudad donde trabajan.
-
+select e.employeeNumber, e.firstName, e.lastName, o.city
+from employees e
+inner join offices o 
+on e.officeCode = o.officeCode;
 -- Ejercicio 7:
 -- Muestra el total de pedidos realizados por cada cliente.
-
+select o.customerNumber, c.customerName, c.contactFirstName, count(o.orderNumber) as orders
+from orders o
+inner join customers c on o.customerNumber = c.customerNumber
+group by customerNumber;
 -- Ejercicio 8:
 -- Muestra el total pagado por cada cliente.
 
