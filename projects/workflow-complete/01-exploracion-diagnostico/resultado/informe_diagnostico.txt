@@ -1,0 +1,1 @@
+El dataset tiene 1,460 filas útiles, 76 columnas aprovechables, los problemas críticos son: 19 columnas con NaN reales; strings NA legítimos en 14 columnas (no imputar); 5 drop candidates por exceso de nulos: ['PoolQC', 'MiscFeature', 'Alley', 'Fence', 'MasVnrType']; MSSubClass y MoSold requieren recodificación de tipo. Siguiente paso: workflow 04 — limpieza y transformación.
