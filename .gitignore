@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large or sensitive)
+data/raw/
+data/processed/
+*.parquet
+*.feather
+*.db
+*.sqlite
+
+# Editor and local workspace
+.idea/
+.vscode/
+.workspace/
+.claude
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
