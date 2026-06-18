@@ -13,7 +13,6 @@
 -- Ejecuta estas dos queries por separado y observa:
 -- ¿Qué tiene orders que no tiene el nombre del cliente?
 -- ¿Qué tiene customers que sí lo tiene?
-
 SELECT orderNumber, customerNumber, orderDate, status
 FROM orders
 LIMIT 5;
@@ -30,7 +29,9 @@ LIMIT 5;
 -- y customerName. Observa que customerNumber nunca se repite
 -- — eso lo convierte en Primary Key.
 
--- escribe aquí
+SELECT customerNumber, customerName
+FROM customers
+LIMIT 10;
 
 
 -- CONCEPTO 3 — Foreign Key: columna que apunta a otra tabla
@@ -44,7 +45,13 @@ LIMIT 5;
 -- Luego busca ese cliente en la tabla customers.
 -- Confirma que el customerNumber coincide en ambas tablas.
 
--- escribe aquí
+SELECT orderNumber, customerNumber, orderDate, status
+FROM orders
+WHERE customerNumber = 103;
+
+SELECT customerNumber, customerName, country
+FROM customers
+WHERE customerNumber = 103;
 
 
 -- CONCEPTO 4 — Relación one-to-many: un cliente, muchos pedidos
@@ -55,7 +62,11 @@ LIMIT 5;
 -- Esto demuestra que un cliente puede tener muchos pedidos
 -- pero cada pedido pertenece a un solo cliente.
 
--- escribe aquí
+SELECT customerNumber, COUNT(orderNumber) AS total_pedidos
+FROM orders
+GROUP BY customerNumber
+ORDER BY total_pedidos DESC
+LIMIT 10;
 
 
 -- CONCEPTO 5 — INNER JOIN: sintaxis base
@@ -70,7 +81,9 @@ LIMIT 5;
 -- Muestra: orderNumber, customerName, orderDate, status.
 -- Usa alias o (orders) y c (customers).
 
--- escribe aquí
+SELECT o.orderNumber, c.customerName, o.orderDate, o.status
+FROM orders o
+INNER JOIN customers c ON o.customerNumber = c.customerNumber;
 
 
 -- CONCEPTO 6 — Qué descarta el INNER JOIN
@@ -85,7 +98,11 @@ LIMIT 5;
 -- B) Total de filas después del INNER JOIN con customers
 -- ¿Son iguales? ¿Por qué sí o por qué no?
 
--- escribe aquí
+SELECT COUNT(*) AS total_orders FROM orders;
+
+SELECT COUNT(*) AS total_con_join
+FROM orders o
+INNER JOIN customers c ON o.customerNumber = c.customerNumber;
 
 
 -- CONCEPTO 7 — JOIN completo aplicado al negocio
@@ -97,4 +114,12 @@ LIMIT 5;
 -- Escribe el INNER JOIN entre orders y customers que lo resuelva.
 -- Ordena por fecha de pedido de más reciente a más antiguo.
 
--- escribe aquí
+SELECT
+    o.orderNumber,
+    c.customerName,
+    c.country,
+    o.orderDate,
+    o.status
+FROM orders o
+INNER JOIN customers c ON o.customerNumber = c.customerNumber
+ORDER BY o.orderDate DESC;
