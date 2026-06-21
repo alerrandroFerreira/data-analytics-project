@@ -1,0 +1,51 @@
+producto_id,nombre,categoria,marca,precio,stock
+101,Laptop ProBook 450,Laptops,HP,899.99,15
+102,Monitor UltraWide 34,Monitores,LG,449.99,8
+103,Teclado Mecánico K3,Teclados,Keychron,129.99,
+104,Ratón Inalámbrico MX,Ratones,Logitech,79.99,22
+105,Auriculares WH-1000,Auriculares,Sony,299.99,11
+106,Laptop Inspiron 15,,Dell,,6
+107,Monitor 4K 27,Monitores,Dell,399.99,14
+108,Teclado Slim K380,Teclados,Logitech,59.99,30
+109,Ratón Vertical V7,Ratones,Anker,49.99,
+110,Auriculares Bose QC45,Auriculares,Bose,379.99,7
+111,Laptop ThinkPad X1,Laptops,Lenovo,1299.99,4
+112,Monitor Curvo 32,Monitores,Samsung,599.99,3
+113,Teclado Gaming K100,Teclados,Corsair,199.99,12
+114,Ratón Gaming G502,Ratones,Logitech,89.99,18
+115,Auriculares AirPods Pro,Auriculares,Apple,279.99,25
+116,Laptop ZenBook Pro,Laptops,ASUS,999.99,9
+117,Monitor IPS 24,Monitores,ASUS,229.99,20
+118,Teclado Compacto MK,Teclados,,39.99,45
+119,Ratón Trackball Expert,Ratones,Kensington,69.99,5
+120,Auriculares Studio Pro,Auriculares,Beats,349.99,8
+121,Laptop Surface Pro,Laptops,Microsoft,1099.99,6
+122,Monitor PortableScreen,Monitores,LG,,2
+123,Teclado Ergonómico EK,Teclados,Microsoft,149.99,15
+124,Ratón Silencioso M330,Ratones,Logitech,39.99,33
+125,Auriculares Galaxy Buds,Auriculares,Samsung,189.99,14
+126,Laptop EliteBook 840,Laptops,HP,1199.99,3
+127,Monitor HDR 32,Monitores,LG,699.99,5
+128,Teclado Bluetooth BT,Teclados,Apple,129.99,18
+129,Ratón Básico M100,Ratones,Logitech,14.99,
+130,Auriculares Jabra Evolve,Auriculares,Jabra,249.99,10
+131,Laptop Gram 16,Laptops,LG,1399.99,2
+132,Monitor UHD 28,Monitores,Samsung,349.99,7
+133,Teclado TKL RedSwitch,Teclados,Razer,109.99,22
+134,Ratón G Pro Wireless,Ratones,Logitech,149.99,9
+135,Auriculares ATH-M50,Auriculares,AudioTechnica,169.99,12
+136,Laptop VivoBook S15,Laptops,ASUS,799.99,8
+137,Monitor 1080p 22,Monitores,AOC,179.99,25
+138,Teclado Ducky One 2,Teclados,Ducky,149.99,6
+139,Ratón Anywhere 3,Ratones,Logitech,79.99,17
+140,Auriculares HD 560S,Auriculares,Sennheiser,199.99,9
+141,Laptop Aspire 5,Laptops,Acer,599.99,13
+142,Monitor Widescreen 29,Monitores,LG,329.99,11
+143,Teclado Anne Pro 2,Teclados,HappyHacking,159.99,4
+144,Ratón Ergo M575,Ratones,Logitech,59.99,28
+145,Auriculares EarPods,Auriculares,Apple,29.99,50
+146,Laptop MateBook D15,Laptops,Huawei,749.99,7
+147,Monitor FHD 23.8,Monitores,AOC,189.99,16
+101,Laptop ProBook 450,Laptops,HP,899.99,15
+102,Monitor UltraWide 34,Monitores,LG,449.99,8
+103,Teclado Mecánico K3,Teclados,Keychron,129.99,

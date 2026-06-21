@@ -1,0 +1,51 @@
+proyecto_id,empleado_id,cliente,presupuesto,estado,duracion_meses
+1,201,TechCorp,15000.00,Completado,6
+2,204,InnovateSL,32000.00,En curso,12
+3,207,DataFlow Inc,8500.00,Completado,3
+4,210,,21000.00,En curso,9
+5,213,SoftSolutions,45000.00,Completado,18
+6,216,RetailPro,12000.00,Pendiente,
+7,219,FinanceGroup,28000.00,En curso,10
+8,222,HealthTech,18500.00,,5
+9,225,MediaHub,35000.00,Completado,14
+10,228,EduPlatform,9000.00,En curso,4
+11,231,,22000.00,Completado,8
+12,234,AutoDrive,55000.00,En curso,20
+13,237,GreenEnergy,16000.00,Pendiente,
+14,240,FoodDelivery,11500.00,En curso,6
+15,243,InsureTech,38000.00,Completado,15
+16,246,SportsCo,24000.00,En curso,9
+17,202,LogisticHub,,Completado,7
+18,205,RetailPro,19000.00,En curso,
+19,208,TechCorp,42000.00,Completado,16
+20,211,MediaHub,,Pendiente,5
+21,214,EduPlatform,13500.00,En curso,6
+22,217,HealthTech,27000.00,Completado,11
+23,220,,17000.00,En curso,7
+24,223,AutoDrive,8000.00,Completado,3
+25,226,GreenEnergy,31000.00,En curso,13
+26,229,FoodDelivery,,Pendiente,
+27,232,InsureTech,20000.00,En curso,8
+28,235,SportsCo,14500.00,Completado,5
+29,238,LogisticHub,48000.00,En curso,18
+30,241,TechCorp,11000.00,Pendiente,
+31,244,,25000.00,En curso,10
+32,247,InnovateSL,33000.00,Completado,12
+33,203,DataFlow Inc,7500.00,En curso,
+34,206,SoftSolutions,19500.00,Completado,7
+35,209,FinanceGroup,29000.00,En curso,11
+36,212,RetailPro,,Completado,4
+37,215,EduPlatform,16000.00,Pendiente,
+38,218,MediaHub,52000.00,En curso,19
+39,221,AutoDrive,23000.00,Completado,9
+40,224,GreenEnergy,37000.00,En curso,14
+41,227,HealthTech,,Pendiente,
+42,230,InsureTech,18000.00,En curso,7
+43,233,SportsCo,12500.00,Completado,5
+44,236,LogisticHub,26000.00,En curso,10
+45,239,TechCorp,41000.00,Completado,16
+46,242,FoodDelivery,9500.00,En curso,
+47,245,FinanceGroup,34000.00,Pendiente,
+48,250,RetailPro,15000.00,En curso,6
+49,251,SportsCo,,Completado,8
+50,252,EduPlatform,22000.00,En curso,
