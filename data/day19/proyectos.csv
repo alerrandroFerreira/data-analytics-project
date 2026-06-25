@@ -45,7 +45,6 @@ proyecto_id,empleado_id,cliente,presupuesto,estado,duracion_meses
 44,236,LogisticHub,26000.00,En curso,10
 45,239,TechCorp,41000.00,Completado,16
 46,242,FoodDelivery,9500.00,En curso,
-47,245,FinanceGroup,34000.00,Pendiente,
 48,250,RetailPro,15000.00,En curso,6
 49,251,SportsCo,,Completado,8
 50,252,EduPlatform,22000.00,En curso,
