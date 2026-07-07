@@ -43,6 +43,9 @@ data/processed/
 .claude
 *.code-workspace
 
+# Repaso personal (no para el repo publico)
+repaso/
+
 # OS
 .DS_Store
 Thumbs.db
