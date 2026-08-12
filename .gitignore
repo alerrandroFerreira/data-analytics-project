@@ -50,3 +50,6 @@ repaso/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+data/external/Listings.csv
+pruebasMirabolantes/
