@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.7
+plotly>=5.18
+seaborn>=0.13
+ipympl>=0.9
+ipywidgets>=8.0
+jupyterlab>=4.0
